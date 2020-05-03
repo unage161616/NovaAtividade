@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1Layout</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    
+
+    <style>
+      *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{height:100%;}
+ 
+
+.clear {
+  clear: both;
+}
+.center{
+	margin: 0 auto;
+	max-width: 1280px;
+	padding:0 2%;
+}
+
+header {
+  width: 100%;
+  height: 5%;
+  background-color: navy;
+}
+
+nav {
+  width: 100%;
+  height:10%;
+  background-color: cornflowerblue;
+}
+
+nav ul{
+  float: right;
+}
+
+nav li{
+  float: left;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav a{
+  font-weight: bold;
+  color: aliceblue;
+}
+
+section{
+  background-color:black;
+}
+
+.banner{
+  width: 100%;
+	padding:0 2%;
+	height: 557px;
+	background-image:url('imagem/mesa.png');
+ background-size: cover;
+}
+
+footer{
+  width: 100%;
+  height: 10%;
+  background-color:cornflowerblue;
+}
+
+footer h1{
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+ </style>
+  </header>
+
+  <nav>
+    <div class="center">
+    <ul>
+    
+      <li><a href="">quem somos</a></li>
+      <li><a href="">depoimentos</a></li>
+      <li><a href="">sobre</a></li>
+      <li><a href="">contato</a></li>
+    </ul>
+
+  </nav>
+</div>
+  <section class="main">
+    <div class="center">
+    <div class="banner">
+    
+
+
+
+
+    </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <footer>
+  <h1>Voltem sempre</h1>
+
+  </footer>
+  
+</body>
+</html>           
